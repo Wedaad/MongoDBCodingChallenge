@@ -31,6 +31,8 @@ public class Solution {
 
             String input = scan.nextLine();
 
+            System.out.println("Input: " + input);
+
             Object obj = jParser.parse(input); //parsing json from a string to an object
 
             output = (JSONObject)obj; 
