@@ -2,7 +2,7 @@
 Solution to MongoDB Coding Challenge
 
 ## The challenge 
-I was given the challenge of writing a program that takes in a JSON object from input and flattens the nested object and returns a flattened version as an output. I implemented this problem using java. 
+I was given the challenge of writing a program that takes in a JSON object from input and flattens the nested object and returns a flattened version as an output. I implemented this problem using Java. 
 
 ---
 
