@@ -49,8 +49,7 @@ I tested the program by inputting various JSONObjects via stdin
    Output: `{"a":1,"b":true,"c.d":3,"c.e":"test"}`
    
 - Testing another nested JSONObject: 
- 
-  `{"bool" : true, "num" : {"zero" : 0, "two" : 2}}`
+ `{"bool" : true, "num" : {"zero" : 0, "two" : 2}}`
   
    Output: `{"bool":true,"num.zero":0,"num.two":2}`
     
