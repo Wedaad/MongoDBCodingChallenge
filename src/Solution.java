@@ -31,18 +31,6 @@ public class Solution {
 
             String input = scan.nextLine();
 
-            if(input == " ") { //if no input is entered
-
-                System.out.println("Please enter a valid JSON Object.");
-
-            }
-            else { //if valid input is entered
-
-                System.out.println("Input: " + input);
-
-            }
-
-
             Object obj = jParser.parse(input); //parsing json from a string to an object
 
             output = (JSONObject)obj; 
@@ -82,8 +70,7 @@ public class Solution {
         } //ends try block
         catch (ParseException pe) {
 
-            //System.out.println("Parse Execption caught: " + pe);
-            System.out.println("Error please enter in a JSON Object");
+            System.out.println("Error please enter in a valid JSON Object");
 
         }  //ends catch block
 
