@@ -29,9 +29,13 @@ I was given the challenge of writing a program that takes in a JSON object from 
 ## Command line interface
 
 - You can compile and run the code via the command line
-  Compile with: javac -cp /JSON/json-simple-1.1.1.jar Solution.java
+  Compile with: 
   
-  Run with: java -cp /JSON/json-simple-1.1.1.jar Solution.java
+  `javac -cp /JSON/json-simple-1.1.1.jar Solution.java`
+  
+  Run with: 
+  
+  `java -cp /JSON/json-simple-1.1.1.jar Solution.java``
   
 ---
   
@@ -43,7 +47,7 @@ I tested the program by inputting various JSONObjects via stdin
     
    Output: `{"a":1,"b":true,"c.d":3,"c.e":"test"}`
    
--Testing another nested JSONObject: 
+- Testing another nested JSONObject: 
  
   `{"bool" : true, "num" : {"zero" : 0, "two" : 2}}`
   
