@@ -29,13 +29,14 @@ I was given the challenge of writing a program that takes in a JSON object from 
 ## Command line interface
 
 - You can compile and run the code via the command line
+
   Compile with: 
   
   `javac -cp /JSON/json-simple-1.1.1.jar Solution.java`
   
   Run with: 
   
-  `java -cp /JSON/json-simple-1.1.1.jar Solution.java``
+  `java -cp /JSON/json-simple-1.1.1.jar Solution.java`
   
 ---
   
