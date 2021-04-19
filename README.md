@@ -56,7 +56,7 @@ I tested the program by inputting various JSONObjects via stdin
 - Testing a JSONObject that  is not nested:
   `{"a" : 1, "b" : true, "c" : “hello”}`
     
-   Output: `{"a" : 1, "b" : true, "c" : “hello”}`
+   Output: ` {"a":1,"b":true,"c":"hello"}`
     
 - Testing an empty JSONObject
   `{}`
